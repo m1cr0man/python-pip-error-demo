@@ -1,7 +1,7 @@
 [project]
-name = "mylib"
+name = "mytestlib"
 version = "1.2.3"
-description = "My library - a generic, non-PyPI published library"
+description = "My Test library - a generic, non-PyPI published library"
 dependencies = [
     "aiohttp"
 ]
@@ -11,4 +11,4 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["mylib", "mylib.*"]
+include = ["mytestlib", "mytestlib.*"]

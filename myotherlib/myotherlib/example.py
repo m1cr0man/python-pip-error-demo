@@ -1,4 +1,4 @@
-from mylib import example
+from mytestlib import example
 
-def test_func() -> int:
+def other_test_func() -> int:
     return example.test_func()

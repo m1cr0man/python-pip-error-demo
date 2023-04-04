@@ -3,12 +3,12 @@ name = "myotherlib"
 version = "1.2.3"
 description = "My Other library - a generic, non-PyPI published library depending on a similar library"
 dependencies = [
-    "mylib"
+    "mytestlib"
 ]
 
 [project.optional-dependencies]
 dev = [
-    "mylib @ git+https://github.com/m1cr0man/python-pip-error-demo.git@test#subdirectory=mylib"
+    "mytestlib @ git+https://github.com/m1cr0man/python-pip-error-demo.git@test#subdirectory=mytestlib"
 ]
 
 [build-system]
