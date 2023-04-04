@@ -1,0 +1,14 @@
+[project]
+name = "mylib"
+version = "1.2.3"
+description = "My library - a generic, non-PyPI published library"
+dependencies = [
+    "aiohttp"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mylib", "mylib.*"]
